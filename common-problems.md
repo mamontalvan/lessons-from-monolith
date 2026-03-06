@@ -14,12 +14,13 @@ With too many engineers working on the same code base, code merge conflicts beco
 
 <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/098764c8-f553-4cac-8e12-34e035049051" />
 
-
+<br>
 
 We need a lot more planning and coordination which typically means more meetings and the more people we have in those meetings, the longer and less productive they become. 
 
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/9724e45e-b207-4ec0-92f9-09ecec94c763" />
+<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/1229af00-c5cc-4695-abd9-8a86ad09a2dd" />
+
 
 
 But the number of engineers is not the only issue. As we add more features to our application, our code base becomes larger and more complex (hard, takes longer to load in the IDE, slower to build/test, risky to deploy) as a result, our release schedule becomes less frequent, which actually makes things even worse, because now every new release contains even more features, increasing the chances for bugs and outages. 
