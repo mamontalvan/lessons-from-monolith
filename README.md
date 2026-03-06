@@ -30,7 +30,7 @@ All functionality lived inside a single codebase and shared the same database.
 
 Typical structure:
 
-<img width="821" height="4601" alt="image" src="https://github.com/user-attachments/assets/6037ec27-300e-4d97-8349-69eb112a8378" />
+<img width="821" height="503" alt="image" src="https://github.com/user-attachments/assets/79d0cb52-4773-426f-816b-a9a264f12db7" />
 
 
 ## How the System Evolved
