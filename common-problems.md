@@ -44,12 +44,12 @@ Finally onboarding new developers now takes more time as it is much harder for t
 A large monolithic system can also have technical problems making the system less scalable. Each application instance, which contains our entire business logic, requires a lot of CPU and memory. So insted of using cheap commodity hardware, we need to run each instance on a more high end and expensive computer.
 
 
-<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/2225ed83-592f-463b-892d-e777a0c15cb1" />
+<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/61cb5c83-2866-4005-8b91-0d2e7da99a68" />
 
 
 We are also very constrained to the technology choices we potentially made many years ago, and we can't take advantage of new and better technologies. Refactoring our code base, even from one library to another, can be a huge effort, let alone considering a new programming language or a framework.
 
-<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/61cb5c83-2866-4005-8b91-0d2e7da99a68" />
+
 
 
 
