@@ -8,7 +8,7 @@ Over time, this resulted in a monolithic system with increasing complexity and s
 
 Working on this platform exposed me to many of the common issues that appear in large legacy monolithic systems. In this document, I summarize some of the most frequent problems I encountered and the lessons they reveal about long-term system evolution.
 
-### Low organizational scalability
+### 1) Low organizational scalability
 
 With too many engineers working on the same code base, code merge conflicts become serious problems. Essentially, everyone is stepping on each other's toes and completing even the most trivial feature becomes slower and harder to deal with those issues.
 
