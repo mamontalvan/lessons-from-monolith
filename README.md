@@ -53,6 +53,7 @@ One of the patterns commonly found in the system was deeply nested validation lo
 
 <img width="886" height="389" alt="save" src="https://github.com/user-attachments/assets/1eb06be7-c504-42f4-afbc-44e3aada1056" />
 
+##
 This pattern emerged when business rules were continuously added to the same functions without refactoring or modularization.
 
 ## Technical Problems Observed
@@ -77,21 +78,10 @@ This pattern emerged when business rules were continuously added to the same fun
   
 ## Lessons Learned
 
-Architecture matters
-
-Without clear architecture boundaries, complexity grows exponentially.
-
-Systems must evolve
-
-A system that never evolves architecturally will eventually become difficult to maintain.
-
-Avoid large functions
-
-Smaller components are easier to test and reason about.
-
-Invest in maintainability early
-
-Refactoring and architecture improvements should be continuous.
+   - Architecture matters: Without clear architecture boundaries, complexity grows exponentially.
+   - Systems must evolve: A system that never evolves architecturally will eventually become difficult to maintain.
+   - Avoid large functions: Smaller components are easier to test and reason about.
+   - Invest in maintainability early: Refactoring and architecture improvements should be continuous.
 
 ## What I Would Do Differently Today
 
@@ -103,14 +93,11 @@ If I were designing a similar system today, I would focus on:
 - observability
 - scalability
 
-Modern architectures such as microservices or modular monoliths provide better foundations for long-term system evolution.
+Modern architectures such as microservices provide better foundations for long-term system evolution.
 
 ## Final Thoughts
 
-Legacy systems are not failures.
-
-They are often the result of years of evolution under real-world constraints.
-
-However, they also highlight the importance of architecture, maintainability, and continuous technical evolution.
-
-The lessons learned from maintaining large legacy systems are some of the most valuable experiences a software engineer can have.
+ - Legacy systems are not failures.
+ - They are often the result of years of evolution under real-world constraints.
+ - However, they also highlight the importance of architecture, maintainability, and continuous technical evolution.
+ - The lessons learned from maintaining large legacy systems are some of the most valuable experiences a software engineer can have.
