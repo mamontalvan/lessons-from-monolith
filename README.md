@@ -30,7 +30,7 @@ All functionality lived inside a single codebase and shared the same database.
 
 Typical structure:
 
-<img width="580" height="360" alt="image" align="center" src="https://github.com/user-attachments/assets/1429c9e9-d4e6-474b-9e07-2b73314120ed" />
+<img width="821" height="391" alt="image" src="https://github.com/user-attachments/assets/6037ec27-300e-4d97-8349-69eb112a8378" />
 
 
 ## How the System Evolved
@@ -53,6 +53,7 @@ As a result:
 One of the patterns commonly found in the system was deeply nested validation logic.
 
 <img width="886" height="389" alt="save" src="https://github.com/user-attachments/assets/ba81ddc2-95d1-415e-a7e6-2735dbddbf35" />
+
 
 This pattern emerged when business rules were continuously added to the same functions without refactoring or modularization.
 
