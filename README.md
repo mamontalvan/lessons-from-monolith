@@ -93,11 +93,12 @@ If I were designing a similar system today, I would focus on:
 - observability
 - scalability
 
+```mermaid
 graph TD
 A[Frontend] --> B[API Gateway]
 B --> C[Services]
 C --> D[Independent Databases]
-
+```
 
 Modern architectures such as microservices provide better foundations for long-term system evolution.
 
