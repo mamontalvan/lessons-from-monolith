@@ -32,6 +32,7 @@ Typical structure:
 
 <img width="580" height="360" alt="image" align="center" src="https://github.com/user-attachments/assets/1429c9e9-d4e6-474b-9e07-2b73314120ed" />
 
+
 ## How the System Evolved
 
 Over time, the system continued to grow but its architecture never evolved.
@@ -51,8 +52,7 @@ As a result:
 
 One of the patterns commonly found in the system was deeply nested validation logic.
 
-<img width="886" height="389" alt="save" src="https://github.com/user-attachments/assets/1eb06be7-c504-42f4-afbc-44e3aada1056" />
-
+<img width="886" height="389" alt="save" src="https://github.com/user-attachments/assets/ba81ddc2-95d1-415e-a7e6-2735dbddbf35" />
 
 This pattern emerged when business rules were continuously added to the same functions without refactoring or modularization.
 
