@@ -53,7 +53,7 @@ One of the patterns commonly found in the system was deeply nested validation lo
 
 <img width="886" height="389" alt="save" src="https://github.com/user-attachments/assets/1eb06be7-c504-42f4-afbc-44e3aada1056" />
 
-##
+
 This pattern emerged when business rules were continuously added to the same functions without refactoring or modularization.
 
 ## Technical Problems Observed
@@ -92,6 +92,12 @@ If I were designing a similar system today, I would focus on:
 - automated testing
 - observability
 - scalability
+
+graph TD
+A[Frontend] --> B[API Gateway]
+B --> C[Services]
+C --> D[Independent Databases]
+
 
 Modern architectures such as microservices provide better foundations for long-term system evolution.
 
