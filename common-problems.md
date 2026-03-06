@@ -10,7 +10,8 @@ This document summarizes some of the most common issues observed in large legacy
 
 With too many engineers working on the same code base, code merge conflicts become serious problems. Essentially, everyone is stepping on each other's toes and completing even the most trivial feature becomes slower and harder to deal with those issues.
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/88c4f433-f256-4ddd-92ca-f6a3842dcb44" />
+<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/098764c8-f553-4cac-8e12-34e035049051" />
+
 
 
 We need a lot more planning and coordination which typically means more meetings and the more people we have in those meetings, the longer and less productive they become. 
