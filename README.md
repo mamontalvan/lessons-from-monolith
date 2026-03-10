@@ -6,7 +6,7 @@ Several years ago, before I started working with modern distributed systems and 
 
 At the time, I didn't fully understand how architectural decisions impact systems over the long term. Working on this platform exposed me to many real-world problems that large legacy systems face when they grow without architectural evolution.
 
-This repository documents the engineering lessons I learned from that experience.
+This repository documents the engineering lessons I learned from that experience, combined with additional concepts studied through software architecture courses and learning resources.
 
 ## System Context
 
@@ -85,3 +85,10 @@ This pattern emerged when business rules were continuously added to the same fun
  - They are often the result of years of evolution under real-world constraints.
  - However, they also highlight the importance of architecture, maintainability, and continuous technical evolution.
 
+## Learning Resources
+
+Some concepts and diagrams referenced in this repository were inspired by materials from the course:
+
+[The Complete Microservices & Event Driven Architecture – Udemy](https://www.udemy.com/course/the-complete-microservices-event-driven-architecture/)
+
+These resources were used for educational purposes while studying modern distributed system design and architecture patterns.
