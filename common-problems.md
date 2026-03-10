@@ -1,4 +1,4 @@
-## Common Problems in Large Legacy Monoliths
+## Common Problems in Large Monoliths
 
 Like many enterprise, the system did not start as a large and complex application. It began as a smaller system designed to solve specific operational needs. However, over the years, new requirements and new features were continuously added.
 
