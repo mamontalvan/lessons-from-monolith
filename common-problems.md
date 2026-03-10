@@ -13,7 +13,10 @@ Working on this platform exposed me to many of the common issues that appear in 
 With too many engineers working on the same code base, code merge conflicts become serious problems. Essentially, everyone is stepping on each other's toes and completing even the most trivial feature becomes slower and harder to deal with those issues.
 
 
+
+
 <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/098764c8-f553-4cac-8e12-34e035049051" />
+
 
 
 <br>
