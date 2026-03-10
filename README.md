@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Several years ago, before I started working with modern distributed systems and microservice architectures, I had the opportunity to work on a large enterprise platform used by hundreds of organizations and thousands of suppliers.
+Several years ago, before I started working with modern distributed systems and microservice architectures, I had the opportunity to work on a large enterprise platform.
 
 At the time, I didn't fully understand how architectural decisions impact systems over the long term. Working on this platform exposed me to many real-world problems that large legacy systems face when they grow without architectural evolution.
 
@@ -10,21 +10,7 @@ This repository documents the engineering lessons I learned from that experience
 
 ## System Context
 
-The platform was responsible for managing complex workflows between organizations and suppliers.
-
-Systems of this nature typically include features such as:
-
-- supplier registration
-- procurement processes
-- contract management
-- validation workflows
-- reporting and auditing
-
-Because these systems support critical business operations, they tend to grow over many years and accumulate large amounts of functionality.
-
-## Original Architecture
-
-The system was built as a large monolithic application.
+The platform was responsible for managing complex workflows, supported critical business operations, and grew significantly over the years.
 
 All functionality lived inside a single codebase and shared the same database.
 
@@ -37,7 +23,7 @@ Typical structure:
 
 Over time, the system continued to grow but its architecture never evolved.
 
-New regulations, business requirements, and features were continuously added to the same codebase.
+New business requirements, and features were continuously added to the same codebase.
 
 Instead of introducing architectural boundaries, new logic was often implemented directly inside existing modules.
 
@@ -52,7 +38,9 @@ As a result:
 
 One of the patterns commonly found in the system was deeply nested validation logic.
 
-<img width="886" height="389" alt="save" src="https://github.com/user-attachments/assets/ba81ddc2-95d1-415e-a7e6-2735dbddbf35" />
+```
+if (validateField(a)) { if (validateField(b)) { if (validateField(c)) { if (validateField(d)) { executeBusinessProcess(); } } } }
+```
 
 
 This pattern emerged when business rules were continuously added to the same functions without refactoring or modularization.
