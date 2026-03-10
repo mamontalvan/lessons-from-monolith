@@ -37,9 +37,12 @@ As a result:
 ## Example: Spaghetti Code
 
 One of the patterns commonly found in the system was deeply nested validation logic.
+
 <br>
+
 <img width="996" height="489" alt="save" src="https://github.com/user-attachments/assets/d95d7f88-533e-4702-88d2-019f2b0ec177" />
 
+<br>
 
 This pattern emerged when business rules were continuously added to the same functions without refactoring or modularization.
 
